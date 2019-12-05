@@ -30,8 +30,8 @@ input {
 
 body {
   font-family: 'Muli', 'Roboto', Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 18px;
+  line-height: 1.5;
   overflow-x: hidden;
   color: white;
 }
@@ -45,50 +45,17 @@ body {
   background-color: #f7505e;
 }
 
-header nav, header ul, header .background-rose * {
+header nav, header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 header li {
-  color: #fff;
   text-transform: uppercase;
-  padding-left: 18px;
-  padding-right: 18px;
-  opacity: .6;
-}
-
-header li:last-child {
-  padding-right: 0px;
-}
-
-header li:hover {
-  color: hsla(0,0%,100%,.75);
-  opacity: 1;
-}
-
-.active {
-  opacity: 1;
-}
-
-header .background-rose p, header .background-rose a {
-  line-height: 1;
-  font-size: .875rem;
-  padding: 14px 0px;
-}
-
-header .background-rose a:hover {
-  text-decoration: underline;
-}
-
-nav {
-  border-bottom: 1px solid hsla(0,0%,100%,.4);
-  margin-bottom: 14px;
   font-weight: 600;
-  padding: 17px 0;
-  font-size: .875rem;
 }
+
 
 /* Container */
 .container {
