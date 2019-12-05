@@ -1,0 +1,126 @@
+/* Kleuren definiëren */
+:root {
+
+}
+
+/* Basisinstellingen definiëren */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  all: unset;
+}
+
+body {
+  font-family: 'Muli', 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Header */
+.background-rose {
+  background-color: #e54654;
+}
+
+.background-pink {
+  background-color: #f7505e;
+}
+
+header nav, header ul, header .background-rose * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 18px;
+  padding-right: 18px;
+  opacity: .6;
+}
+
+header li:last-child {
+  padding-right: 0px;
+}
+
+header li:hover {
+  color: hsla(0,0%,100%,.75);
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+header .background-rose p, header .background-rose a {
+  line-height: 1;
+  font-size: .875rem;
+  padding: 14px 0px;
+}
+
+header .background-rose a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  border-bottom: 1px solid hsla(0,0%,100%,.4);
+  margin-bottom: 14px;
+  font-weight: 600;
+  padding: 17px 0;
+  font-size: .875rem;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
