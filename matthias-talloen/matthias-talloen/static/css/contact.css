@@ -1,0 +1,27 @@
+:root {
+  --pink-light: #fc5f6c;
+  --pink-dark: #e54654;
+  --pink-title: #f7505e;
+  --red: #ee0000;
+  --grey : #696969;
+  --darkgrey: #494949;
+  --lightgrey: #bebebe;
+  }
+button {
+  background-color: var(--pink-title);
+  color: #ffffff;
+  font-size: 15px;
+  padding: 15px 15px;
+  border: none;
+}
+span {
+  color: var(--red);
+}
+input {
+  display: block;
+  width: 100%;
+  height: cal(1.5em + .75rem + 2px);
+  border: 1px var(--lightgrey) solid;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  padding: .375rem .75rem;
+}
