@@ -1,0 +1,23 @@
+.buys {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.buys > .card {
+  margin-top: 15px;
+  margin-right: 3.5%;
+}
+
+.buys > .card:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.buys > .card > p {
+  margin-left: 15px;
+}
+.label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .875rem;
+  color: var(--grey);
+  margin-right: 5px;
+}

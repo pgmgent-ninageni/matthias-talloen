@@ -1,0 +1,94 @@
+:root {
+  --pink-light: #fc5f6c;
+  --pink-dark: #e54654;
+  --pink-title: #f7505e;
+  --red: #ee0000;
+  --grey : #696969;
+  --darkgrey: #494949;
+  --lightgrey: #bebebe;
+  }
+#map {
+  width: 542px; 
+  height: 413px;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+a {
+  color: var(--pink-title);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--red);
+  border-bottom: 1px var(--red) solid;
+}
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--grey);
+  margin-bottom: 15px;
+}
+.contact_address {
+  margin-top: 30px;
+}
+strong {
+  font-weight: 700;
+}
+.button:hover {
+  background-color: var(--red);
+}
+span {
+  color: var(--red);
+}
+.contact_info {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_info > div {
+  flex: 0 0 48%;
+}
+input {
+  display: block;
+  width: 100%;
+  height: cal(1.5em + .75rem + 2px);
+  border: 1px var(--lightgrey) solid;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--darkgrey);
+  margin-bottom: 15px;
+}
+textarea {
+  width: 100%;
+  padding: .375rem .75rem;
+  border: 1px var(--lightgrey) solid;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  resize: vertical;
+  min-height: 170px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--darkgrey);
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: var(--pink-title);
+  color: #ffffff;
+  font-size: 15px;
+  width: 100px;
+  padding: 10px 10px;
+  border: none;
+}
+label {
+  display: block;
+  margin-bottom: .5rem;
+  color: var(--grey);
+}
+hr {
+  margin-bottom: 15px;
+}

@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon_package_v0/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon_package_v0/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon_package_v0/favicon-16x16.png">
+    <link rel="manifest" href="../static/favicon_package_v0/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="../static/css/grid.css">
+    <link rel="stylesheet" href="../static/css/map.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
+    <title>Contact - Matthias Talloen</title>
 </head>
 <body>
+    <div class="g-fb-container">
+        <div class="g-fb-row">
+            <div class="g-fb-col-6 g-fb-col-sm-6 g-fb-col-md-6 g-fb-col-lg-6 g-fb-col-xl-6">
+                <div id='map'></div>
+                <div class="contact_address">
+                    <p>
+                        <strong>Matthias Talloen</strong>
+                        <br>
+                        Hazelaarstraat 4
+                        <br>
+                        8020 Oostkamp
+                    </p>
+                    <p>
+                        <a href="tel:0495252263">0495 25 22 63</a> 
+                        <br>
+                        <a href="mailto:info@matthiastalloen.be">info@matthiastalloen.be</a>
+                    </p>
+                    <p>BE 0896.739.858</p>
+                </div>
+            </div>
+            <div class="g-fb-col-6 g-fb-col-sm-6 g-fb-col-md-6 g-fb-col-lg-6 g-fb-col-xl-6">
+                <h2>Contacteer ons</h2>
+                <p>Laat ons weten hoe we je kunnen bereiken</p>
+                <hr>
+                <form action="">
+                    <div class="contact_info">
+                        <div class="name">
+                            <label>Naam <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="email">
+                            <label>E-mailadres <span>*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <label>Uw bericht <span>*</span></label>
+                    <textarea></textarea>
+                    <input type="submit" class="button" value="Verzenden">
+                </form>
+            </div>
+        </div>
+    </div>
     
 </body>
+<script src="../static/js/map.js"></script>
 </html>

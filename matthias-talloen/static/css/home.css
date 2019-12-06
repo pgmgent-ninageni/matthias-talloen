@@ -1,0 +1,34 @@
+:root {
+  --pink-light: #fc5f6c;
+  --pink-dark: #e54654;
+  --pink-title: #f7505e;
+  --grey : #696969;
+  --lightgrey: #F0F0F0;
+  --white: #ffffff;
+  }
+.label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .875rem;
+  color: var(--grey);
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.grey {
+  margin-top: 50px;
+  background-color: var(--lightgrey);
+  padding-bottom: 50px;
+}
+.card_pink {
+  background-color: var(--pink-title);
+}
+.card_pink > .stripes > .stripe {
+  background-color: var(--white);
+} 
+.card_pink > .card_title > h3 {
+  color: var(--white);
+} 
+.card_pink > p {
+  color: var(--white);
+  margin-left: 15px;
+}
